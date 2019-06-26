@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://118.25.58.79:3306/db_order?useSSL=false&serverTimezone=UTC
+      username: root
+      password: Yunaxiaozhou&1
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+
+logging:
+  level:
+    org.springframework.cloud.alibaba.seata.web: debug
+    io.seata: debug
+server:
+  port: 8082
+

@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: account-service
+  datasource:
+    hikari:
+      password: Yunaxiaozhou&1
+      username: root
+      jdbc-url: jdbc:mysql://118.25.58.79:3306/db_account?useSSL=false&serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+
+server:
+  port: 8083
+
+logging:
+  level:
+    org.springframework.cloud.alibaba.seata.web: debug
+    io.seata: debug
