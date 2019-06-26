@@ -4,7 +4,7 @@
 ### 准备工作
 1. 执行sql/all_in_one.sql
 
-2. 下载[0.5.0](https://github.com/seata/seata/releases/tag/0.6.1)版本server
+2. 下载[0.6.1](https://github.com/seata/seata/releases/tag/0.6.1)版本server
 
    客户端与服务端版本号保持一致
 3. 启动seata server
