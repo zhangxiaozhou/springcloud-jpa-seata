@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+README.md
+business-service/
+order-service/pom.xml
+order-service/src/
+pom.xml
+sql/
+storage-service/
+user-service/
